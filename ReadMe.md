@@ -1,6 +1,8 @@
 ## ABOUT
 
 * This is a solidity smart contract that has Fees on Buy and Fees on Sell
+* tax on buy is set to ```7%``` while tax on sell is set to ```8%```
+* from the sell tax ```7%``` is for marketing tax, while ```1%``` is burnt
 * It uses openzeppellin for contract Ownership
 * It already excluded the Owner, address(this), marketing Address and Burn Address from fees
 * ownership is transfered to the dev address once contract is deployed
